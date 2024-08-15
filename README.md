@@ -14,7 +14,7 @@ This is a simple To Do List app.
 1. Clone the repository from GitHub
 
 ```bash
-git clone https://github.com/itsnileshgosavi/ToDo-List.git
+git clone https://github.com/itsnileshgosavi/ToDo-List-React.git
 ```
 
 2. Change directory to `ToDo-List`
