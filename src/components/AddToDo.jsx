@@ -27,7 +27,7 @@ const AddToDo = ({AddToDo, todos}) => {
           <input type="text" onChange={(e)=>{setInput(e.target.value)}} onKeyDown={(e)=>{e.key === 'Enter' && handleSubmit(e)}} value={input} className="peer w-full bg-transparent outline-none px-4 text-base rounded-xl bg-white border border-[#4070f4] focus:shadow-md" id="todo" placeholder=" "/>
           <label
             className={`absolute top-1/2 translate-y-[-50%] bg-white left-4 px-2 peer-focus:top-0 peer-focus:left-3 font-light text-base peer-focus:text-sm peer-focus:text-[#4070f4] transition-all duration-150 ${error ? "text-red-500 peer-focus:text-red-500" : ""}`}
-            for="todo"
+            htmlFor="todo"
           >
            Add a To Do</label>
         </div>
